@@ -21,7 +21,7 @@
                 </ul>
 
             </div>
-            <div>
+            <div class="rightLi">
                 <h3>DC</h3>
                 <ul>
                     <li>Terms Of Use</li>
@@ -37,7 +37,7 @@
                     <li>Contact Us</li>
                 </ul>
             </div>
-            <div>
+            <div class="fullRightLi">
                 <h3>SITES</h3>
                 <ul>
                     <li>DC</li>

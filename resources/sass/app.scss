@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
 
 /**** HEADER ***/
 
@@ -149,23 +156,27 @@ p{
     width: 100%;
 }
 
-.leftLi h3 {
-    color: white;
+.leftLi, .rightLi, .fullRightLi {
 
+    h3 {
+        color: white;
+    }
     
     ul {
         padding-inline-start: 0px;
 
     }
 
-
-    
+    li {
+        list-style: none;
+        color: gray;
 }
 
-li {
-    list-style: none;
-    color: gray;
+  
 }
+
+
+
 
 
 
