@@ -236,6 +236,6 @@ $comic = [
     ],
 ];
 
-return view('welcome', compact('comic'));
+return view('/welcome', compact('comic'));
 
 });
