@@ -19,13 +19,13 @@
         @include('partial.jumbotron')
 
 
-
         @yield('main-content')
 
 
+        @include('partial.blueBar')
+
 
         @include('partial.footer')
-
 
 
         @include('partial.social')

@@ -96,6 +96,49 @@ main{
 
 }
 
+/**** BLUE BAR ***/
+
+.genZ{
+    background-color: rgb(2, 130, 249);
+    width: 100%;
+
+    nav{
+        background-color: rgb(2, 130, 249);
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        margin: auto;
+        padding: 3rem;
+    
+    
+        div{
+            display: flex;
+            width: calc(100%/5);
+            
+            align-items: center;
+            
+    
+            img{
+                width: 50px;
+                height: 60px;
+            }
+    
+            span{
+                p{
+                    margin-left: 10px;
+                    font-size: 0.8rem;
+                }
+            }
+    
+        }
+    }
+}
+
+
+
+p{
+    color: white;
+}
 
 /**** FOOTER ***/
 
