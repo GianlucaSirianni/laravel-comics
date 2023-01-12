@@ -70,6 +70,25 @@ a {
 }
 
 /**** MAIN ***/
+main {
+  background-color: black;
+}
+
+.containerComic {
+  padding: 40px;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.comicCard {
+  width: 16.6666666667%;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
 /**** FOOTER ***/
 .genC {
   background-image: url(../img/footer-bg.jpg);

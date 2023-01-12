@@ -1,7 +1,7 @@
 
 
 <header>
-            <div class="genA">
+        <div class="genA">
             <nav>
                 <div class="logo">
                     <img src="{{asset('img/dc-logo.png')}}" alt="">

@@ -75,6 +75,26 @@ a {
 
 /**** MAIN ***/
 
+main{
+    background-color: black;
+}
+
+.containerComic{
+    padding: 40px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.comicCard{
+    width: calc(100%/6);
+    text-align: center;
+    padding: 10px;
+    color: white;
+
+}
 
 
 /**** FOOTER ***/
