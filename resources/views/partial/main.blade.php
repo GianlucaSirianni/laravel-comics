@@ -1,10 +1,5 @@
-
-@extends('layout.app')
-
-@section('page-title', "comics")
-
-@section('main-content')
-    <h2>prova</h2>
+<main>
+        <h2>prova</h2>
     <div class="bg-img-prodotti">
         @foreach ($comic as $elem)
             <div>
@@ -12,4 +7,5 @@
             </div>
         @endforeach
     </div>
-@endsection
+</main>
+

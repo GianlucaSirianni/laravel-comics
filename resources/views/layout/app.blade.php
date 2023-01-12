@@ -5,23 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('page-title')</title>
+    <link rel="stylesheet" href="{{asset('css/app.css')}}">
 </head>
 <body>
 
     {{-- HEADER --}}
-    <header>
+
         @include('partial.header')
-    </header>
+
 
     {{-- JUMBOTRON --}}
-    <section>
-        @include('partial.jumbotron')
-    </section>
 
-    <main>
+        @include('partial.jumbotron')
+
+
+
         @yield('main-content')
-        @include('partial.main')
-    </main>
+
+
+
+        @include('partial.footer')
+
+
+
+        @include('partial.social')
+
 
 
 
